@@ -51,6 +51,7 @@ main {
     height: auto;
     overflow-x: hidden;
     scrollbar-width: none;
+    border: white solid 5px;
 }
 
 #index {
