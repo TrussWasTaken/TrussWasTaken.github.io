@@ -1,7 +1,5 @@
-## ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `BEWARE: This website has a lot o WIP! We're working on it.`
+## ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `This website has WIP! :o`
 
-# *CoolWebsiteAboutMe aka my own website*
+# My first site ever
 
-<br>
-
-It's my website about me! Nothing much to say or to see yet, since I'm just starting out. 
+As the title says, this is my first site ever.
