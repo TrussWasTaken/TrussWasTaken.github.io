@@ -1,15 +1,14 @@
 :root{
-    --header-size: 55px;
-}
-
-h1 {
-    font-size: 50px;
+    --header-size: 50px;
+    --color-base: #1e1e2e;
+    --color-text: #cdd6f4;
+    --color-accent: #f5c2e7;
 }
 
 body {
-    background-image: radial-gradient(#552e52,#160d14);
-    color: #f5ebd0;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-base);
+    color: var(--color-text);
+    font-family: Helvetica, sans-serif;
     margin: 0;
     height: 100svh;
     padding: 0;
@@ -17,21 +16,23 @@ body {
 }
 
 header.top-header {
+    color: #cdd6f4;
+    background-color: var(--color-base);
+    border-bottom: 1px solid var(--color-accent);
     display: flex;
     flex-direction: row;
-    text-align: center;
-    background-color: #4220339d;
-    color: #e4b3cc;
-    width: 100%;
     height: var(--header-size);
-    overflow-y: hidden;
-    border-bottom: 1px solid #291920;
     justify-content: space-between;
+    overflow-y: hidden;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 100%;
 }
 
 .top-header > * {
     width: 20%;
-    line-height: 50px;
+    font-size: 18px;
+    line-height: 55px;
     text-decoration: none;
     color: var(--color);
     padding: 0px 20px;
@@ -48,16 +49,16 @@ main {
 
 #cat {
     text-align: center;
+    width: 75%;
     height: auto;
-    overflow-x: hidden;
-    scrollbar-width: none;
-    border: white solid 5px;
 }
 
-#index {
-    padding: 2.5px 5px;
+/*#index {
+    padding: 1px;
     line-height: 55px;
-}
+    display: block;
+    justify-content: start;
+}*/
 
 br {
     margin: 5px
