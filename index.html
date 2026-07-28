@@ -4,20 +4,20 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Me!</title>
-        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="css/index.css" />
         <script src="index.js"></script>
     </head>
 
     <body>
-        <header class="top-header">
-            <a href="index.html" id="index">&#9825;</a>
-            <a href="aboutMe.html">About me</a>
-            <a href="myArt.html">My Art</a>
-            <a href="contacts.html">Contacts</a>
-        </header>
+        <div id="header"></div>
+            <script>
+                fetch("html/header.html")
+                    .then(response => response.text())
+                    .then(data => {document.getElementById("header").innerHTML = data;});
+            </script>
         <main>
-            <h1>hi</h1>
-            Willkommen auf meiner verfluchten Webseite<br/>
+            <h1>Hallu!</h1>
+            Welcome to my cursed site... <br/>
             <img src="https://http.cat/418" id="cat"/><br/>
             Impressum kommt bald ich schwörs...
         </main>
